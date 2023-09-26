@@ -9,7 +9,7 @@ function Home(){
                     <div className='text-Container-header'>
                         <Link to='/' className='menu-button'>Página Inicial</Link>
                         <Link to="/sobre" className='menu-button'>Sobre Nós</Link>
-                        <Link className='menu-button'>Contato</Link>
+                        <Link to="/contato" className='menu-button'>Contato</Link>
                     </div>
                 </div>
                 <div className='img-container1'></div>

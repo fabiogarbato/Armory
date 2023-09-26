@@ -1,7 +1,7 @@
-import './sobre.css'
+import './contato.css'
 import { Link } from 'react-router-dom';
 
-function Sobre(){
+function Contato(){
         return(      
             <div className='container'>
                 <div className='header_site'>  
@@ -12,8 +12,9 @@ function Sobre(){
                             <Link to="/contato" className='menu-button'>Contato</Link>
                         </div>
                 </div>
+                <a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5541997388481" target="_blank"></a>
             </div>                      
     )
 }
 
-export default Sobre;
+export default Contato;
