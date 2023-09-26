@@ -15,3 +15,9 @@
     align-items: center;
     flex-direction: column;
   }
+
+  @font-face {
+    font-family: 'Marlboro';
+    src: local('Marlboro'), url(./fonts/Marlboro.ttf) format('truetype');
+  }
+

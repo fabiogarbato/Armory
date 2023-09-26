@@ -17,8 +17,8 @@ body {
 
 .menu-button {
   color: rgb(255, 115, 0);
-  font-size: 36px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-family: Marlboro, serif;
   transition: transform 0.2s;
   cursor: pointer;
   margin-top: 0px;
@@ -125,6 +125,7 @@ body {
 
   .menu-button {
     font-size: 24px;
+    font-family: Marlboro, serif;
     margin-right: 10px;
     margin-top: 0px;
     flex-grow: 1;
