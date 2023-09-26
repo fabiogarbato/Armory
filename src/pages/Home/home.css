@@ -7,36 +7,26 @@ body {
 
 .text-Container-header {
   height: 207px;
-  margin-left: 1100px;
+  margin-left: 1050px;
   /* background-color: rgb(195, 0, 255); */
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
 }
 
 .menu-button {
   color: rgb(255, 115, 0);
   font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
   transition: transform 0.2s;
   cursor: pointer;
   margin-top: 0px;
-  margin-right: -20px; 
-}
-
-.menu-button-contact {
-  color: rgb(255, 115, 0);
-  font-size: 36px;
-  transition: transform 0.2s;
-  cursor: pointer;
-  margin-top: 0px;
-  margin-right: 60px; 
+  margin-right: 70px;
+  flex-grow: 0;
 }
 
 .menu-button:hover {
-  transform: scale(1.1); 
-}
-
-.menu-button-contact:hover {
   transform: scale(1.1); 
 }
 
@@ -107,11 +97,11 @@ body {
 }
 
 .img-container1:hover {
-  transform: scale(1.1); 
+  transform: scale(1.05); 
 }
 
 .img-container2:hover {
-  transform: scale(1.1); 
+  transform: scale(1.05); 
 }
 
 .copyright {
@@ -121,31 +111,44 @@ body {
   font-size: 15px;
 }
 
-@media screen and (min-width: 768px) {
-  .text-Container-header {
-    width: 800px;
-    margin-left: 1000px;
-  }
-
-  .menu-button {
-    margin-left: -390px;
-  }
-
-}
 
 @media screen and (max-width: 768px) {
   .text-Container-header {
-    width: 100%; 
-    margin-left: 0; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
+    height: auto;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
   }
 
   .menu-button {
-    margin-left: 0; 
-    font-size: 24px; 
+    font-size: 24px;
+    margin-right: 10px;
+    margin-top: 0px;
+    flex-grow: 1;
   }
 
-}
+  .img_logo {
+    position: absolute;
+    width: 100px; 
+    height: 87px; 
+    right: 50%; 
+    top: 50%; 
+    transform: translate(50%, -50%);
+  }
 
+
+  .container {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #2b2928;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
 

@@ -7,10 +7,9 @@ function Home(){
                 <div className='header_site'>
                 <div className='img_logo'></div>
                     <div className='text-Container-header'>
-                        <div className='menu-button-contact'>Contato</div>
-                        <div className='menu-button'>Sobre Nós</div>
                         <div className='menu-button'>Página Inicial</div>
-                        <div className='menu-button'></div>
+                        <div className='menu-button'>Sobre Nós</div>
+                        <div className='menu-button'>Contato</div>
                     </div>
                 </div>
                 <div className='img-container1'></div>
