@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 html,
 body {
   height: 100%;
@@ -63,10 +67,9 @@ body {
 }
 
 .img-container1 {
-  width: 850px;
+  width: 550px;
   height: 500px;
-  background-color: white;
-  background-image: url('../../images/arma1.jpg');
+  background-image: url('../../images/arma1.jpg'); 
   background-size: cover; 
   background-repeat: no-repeat;
   background-position: center center;
@@ -74,16 +77,17 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  margin-right: 40px;
+  margin-right: 30px; 
+  margin-left: 35px;
   transition: transform 0.2s;
   cursor: pointer;
+  flex: 1;
 }
 
 .img-container2 {
-  width: 850px;
+  width: 550px;
   height: 500px;
-  background-color: white;
-  background-image: url('../../images/arma2.jpg');
+  background-image: url('../../images/arma2.jpg'); 
   background-size: cover; 
   background-repeat: no-repeat;
   background-position: center center;
@@ -91,18 +95,58 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  margin-right: 40px;
+  margin-right: 30px; 
   transition: transform 0.2s;
   cursor: pointer;
+  flex: 1;
+  margin-left: 20px;
 }
 
 .img-container1:hover {
-  transform: scale(1.05); 
+  transform: scale(1.035); 
 }
 
 .img-container2:hover {
-  transform: scale(1.05); 
+  transform: scale(1.035); 
 }
+
+.text-img-container {
+  width: 100%;
+  /* background-color: #f2f2f2; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: absolute; 
+  bottom: 75px; 
+  left: 0; 
+  right: 0; 
+}
+
+.text-name-img1 {
+  text-align: left;
+  color: rgb(255, 115, 0);
+  font-family: Marlboro, serif;
+  font-size: 34px;
+  position: relative;
+  top: -20px;
+  float: left;
+  margin-right: 400px; 
+  margin-top: 0px;
+}
+
+.text-name-img2 {
+  text-align: right;
+  color: rgb(255, 115, 0);
+  font-family: Marlboro, serif;
+  font-size: 34px;
+  position: relative;
+  top: -20px;
+  float: right;
+  margin-left: 400px;
+  margin-top: 0px;
+}
+
 
 .copyright {
   position: fixed;

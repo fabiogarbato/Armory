@@ -7,13 +7,17 @@ function Home(){
                 <div className='header_site'>
                 <div className='img_logo'></div>
                     <div className='text-Container-header'>
-                        <div className='menu-button'>Página Inicial</div>
-                        <div className='menu-button'>Sobre Nós</div>
-                        <div className='menu-button'>Contato</div>
+                        <Link className='menu-button'>Página Inicial</Link>
+                        <Link className='menu-button'>Sobre Nós</Link>
+                        <Link className='menu-button'>Contato</Link>
                     </div>
                 </div>
                 <div className='img-container1'></div>
                 <div className='img-container2'></div>
+                <div className='text-img-container'>
+                    <div className='text-name-img1'>Saiba Mais</div>
+                    <div className='text-name-img2'>Conheça nosso trabalho</div>
+                </div>
             </div>                      
     )
 }
