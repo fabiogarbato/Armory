@@ -30,6 +30,10 @@ body {
   flex-grow: 0;
 }
 
+.menu-button.active {
+  color: rgb(255, 238, 0); 
+}
+
 .menu-button:hover {
   transform: scale(1.1); 
 }
