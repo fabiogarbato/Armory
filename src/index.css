@@ -17,7 +17,7 @@
   }
 
   @font-face {
-    font-family: 'Marlboro';
-    src: local('Marlboro'), url(./fonts/Marlboro.ttf) format('truetype');
+    font-family: 'korataki';
+    src: local('korataki'), url(./fonts/korataki.ttf) format('truetype');
   }
 

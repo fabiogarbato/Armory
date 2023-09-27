@@ -15,11 +15,15 @@ function Home() {
           <Link to="/contato" className={`menu-button ${location.pathname === '/contato' ? 'active' : ''}`}>Contato</Link>
         </div>
       </div>
-      <div className='img-container1'></div>
-      <div className='img-container2'></div>
+      <Link to='/sobre' className={`img-container1 ${location.pathname === '/sobre' ? 'active' : ''}`}></Link>
+      <Link to='/contato' className={`img-container2 ${location.pathname === '/contato' ? 'active' : ''}`}></Link>
       <div className='text-img-container'>
-        <div className='text-name-img1'>Saiba Mais</div>
-        <div className='text-name-img2'>Conheça nosso trabalho</div>
+        <div className='column-1'>
+          <div className='text-name-img1'>Sobre Nós</div>        
+        </div>
+        <div className='column-2'>
+          <div className='text-name-img2'>Entre em contato conosco</div>        
+        </div>
       </div>
     </div>
   );
