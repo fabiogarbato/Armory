@@ -15,7 +15,7 @@ function Home() {
           <Link to="/contato" className={`menu-button ${location.pathname === '/contato' ? 'active' : ''}`}>Contato</Link>
         </div>
       </div>
-      <Link to='/sobre' className={`img-container1 ${location.pathname === '/sobre' ? 'active' : ''}`}></Link>
+      <Link to='/tabela' className={`img-container1 ${location.pathname === '/tabela' ? 'active' : ''}`}></Link>
       <Link to='/contato' className={`img-container2 ${location.pathname === '/contato' ? 'active' : ''}`}></Link>
       <div className='text-img-container'>
         <div className='column-1'>

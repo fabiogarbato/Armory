@@ -1,5 +1,4 @@
 import './sobre.css'
-import TabelaCursos from './tabelaCursos.js'
 import { Link, useLocation } from 'react-router-dom';
 
 function Sobre(){
