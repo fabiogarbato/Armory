@@ -36,17 +36,16 @@ function Sobre(){
                     <div className='title-text-column-1'> {titulos[0]}
                         <div className='text-column-1'>{textos[0]}</div>
                     </div>
-                    <div className='title-text2-column-1'> {titulos[3]}
-                        <TabelaCursos/>
-                    </div>
                 </div>
                 <div className='column-2'> 
                     <div className='title-text-column-2'> {titulos[1]}
                         <div className='text-column-2'>{textos[1]}</div>
                     </div>
-                    <div className='title-text2-column-2'> {titulos[2]}
-                        <div className='text2-column-2'>{textos[2]}</div>
-                    </div>
+                </div>
+            </div>
+            <div className='Content-container-bottom'>
+                <div className='title-text-bottom'>{titulos[2]}
+                    <div className='text-bottom'> {textos[2]} </div>
                 </div>
             </div>
         </div>                      
