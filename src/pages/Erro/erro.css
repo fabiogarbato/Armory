@@ -1,42 +1,21 @@
-.header {
-    position: absolute;
-    width: 100%;
-    height: 108px;
-    left: 0px;
-    top: 0px;
-    background: #5BC0BE;
-  }
-
-.background {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background: #F0F0F7;
+.Content-container-error{
+  width: 1600px;
+  height: 400px;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  margin-top: 330px;
 }
 
-@keyframes blink {
-    0% {
-      color: red;
-    }
-    50% {
-      color: rgb(255, 153, 0);
-    }
-    100% {
-      color: red;
-    }
-  }
-
-
-.not-found {
-    text-decoration-color: black;
-    margin-top: 400px;
-    margin-left: 600px; 
-    margin-right: 600px; 
-    display: flex;
-    align-items: center;
-    font-size: 50px;
-    font-weight: 'Bold';
-    animation: blink 3s infinite; 
+.text-error {
+  color: rgb(255, 115, 0);
+  font-family: korataki, serif;
+  font-size: 70px;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 @media screen and (max-width: 1024px) {
