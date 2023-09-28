@@ -19,7 +19,7 @@ function Home() {
       <Link to='/contato' className={`img-container2 ${location.pathname === '/contato' ? 'active' : ''}`}></Link>
       <div className='text-img-container'>
         <div className='column-1'>
-          <div className='text-name-img1'>Sobre Nós</div>        
+          <div className='text-name-img1'>Nossos Cursos</div>        
         </div>
         <div className='column-2'>
           <div className='text-name-img2'>Entre em contato conosco</div>        

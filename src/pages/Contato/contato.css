@@ -38,3 +38,119 @@
   font-family: korataki, serif;
   font-size: 50px;
 }
+.Content-contact-container{
+  width: 1600px;
+  height: 500px;
+  /* background-color: blueviolet; */
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  margin-top: 330px;
+  margin-right: 60px;
+}
+
+.column-contact-1 {
+  flex: 1; 
+  padding: 20px; 
+  /* background-color: #ff0000; */
+}
+
+.column-contact-2 {
+  flex: 1;
+  padding: 20px; 
+  /* background-color: #5eff00;  */
+}
+
+.title-column-contact-1{
+  align-items: center;
+  color: rgb(255, 115, 0);
+  font-family: korataki, serif;
+  font-size: 30px;
+  margin-top: 0%;
+  left: 50%;
+}
+
+.title-column-contact-2{
+  align-items: center;
+  color: rgb(255, 115, 0);
+  font-family: korataki, serif;
+  font-size: 30px;
+  margin-top: 0%;
+  left: 50%;
+}
+
+.img-contact1 {
+
+  background-image: url('../../images/logo_rede_social.png'); 
+}
+
+.img-contact2 {
+  background-image: url('../../images/arma4.jpg');
+}
+
+.img-contact1,
+.img-contact2 {
+  width: 200px;
+  height: 200px;
+  /* background-color: #25d366; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.2s;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%) scale(1);
+  cursor: pointer;
+}
+
+.img-contact1:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+  top: 30%; 
+}
+
+.img-contact2:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+  top: 30%; 
+}
+
+.container-nameSocialMedia {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  margin-top: 4%;
+}
+
+.text-nameSocialMedia {
+  color: rgb(255, 115, 0);
+  font-family: korataki, serif;
+  font-size: 30px;
+  margin-right: 130px; 
+}
+
+.img-socialMedia-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 130px; 
+  margin-right: 15px;
+  background-image: url('../../images/face.png');
+  background-size: cover;
+}
+
+.img2-socialMedia-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 130px;
+  margin-right: 15px;
+  background-image: url('../../images/insta.png');
+  background-size: cover;
+  background-position: center center; /* Centraliza a imagem vertical e horizontalmente */
+}
+
+
