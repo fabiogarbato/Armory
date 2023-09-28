@@ -30,7 +30,7 @@ function Contato(){
                 <div className='column-contact-2'>
                     <div className='title-column-contact-2'>FACEBOOK</div> 
                     <Link to='https://www.facebook.com/armoryconsulting/' target='_blank'>
-                            <div className='img-contact2'></div>
+                        <div className='img-contact2'></div>
                     </Link>
                     <div className='container-nameSocialMedia'>
                         <div className='img-socialMedia-logo'></div>

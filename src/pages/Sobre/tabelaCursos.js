@@ -37,32 +37,24 @@ function TabelaCursos() {
   return (
     <TableContainer>
       <Table>
-          <TableBody>
+        <TableBody>
           <TableRow>
-              <CustomTableTitleCell variant="head">{op_nivel[0]}</CustomTableTitleCell>
-              <CustomTableTextCell>
-                  {op_consultoria[0]}
-              </CustomTableTextCell>
+            <CustomTableTitleCell variant="head">{op_nivel[0]}</CustomTableTitleCell>
+            <CustomTableTextCell>{op_consultoria[0]}</CustomTableTextCell>
           </TableRow>
           <TableRow>
-              <CustomTableTitleCell variant="head">{op_nivel[1]}</CustomTableTitleCell>
-              <CustomTableTextCell>
-                  {op_consultoria[1]}
-              </CustomTableTextCell>
-          </TableRow>
+            <CustomTableTitleCell variant="head">{op_nivel[1]}</CustomTableTitleCell>
+            <CustomTableTextCell>{op_consultoria[1]}</CustomTableTextCell>
+            </TableRow>
           <TableRow>
-              <CustomTableTitleCell variant="head">{op_nivel[2]}</CustomTableTitleCell>
-              <CustomTableTextCell>
-                  {op_consultoria[2]}
-              </CustomTableTextCell>
-          </TableRow>
+            <CustomTableTitleCell variant="head">{op_nivel[2]}</CustomTableTitleCell>
+            <CustomTableTextCell>{op_consultoria[2]}</CustomTableTextCell>
+            </TableRow>
           <TableRow>
-              <CustomTableTitleCell variant="head">{op_nivel[3]}</CustomTableTitleCell>
-              <CustomTableTextCell>
-                  {op_consultoria[3]}
-              </CustomTableTextCell>
+            <CustomTableTitleCell variant="head">{op_nivel[3]}</CustomTableTitleCell>
+            <CustomTableTextCell>{op_consultoria[3]}</CustomTableTextCell>
           </TableRow>
-          </TableBody>
+        </TableBody>
       </Table>
   </TableContainer>
   );
