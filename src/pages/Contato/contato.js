@@ -18,7 +18,7 @@ function Contato(){
             </div>
             <div className='Content-contact-container'>
                 <div className='column-contact-1'>
-                   <div className='title-column-contact-1'>INSTAGRAM</div> 
+                    <div className='title-column-contact-1'>INSTAGRAM</div> 
                     <Link to='https://www.instagram.com/armoryconsulting/' target='_blank'>
                         <div className='img-contact1'></div>
                     </Link>

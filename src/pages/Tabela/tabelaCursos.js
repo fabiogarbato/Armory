@@ -40,6 +40,9 @@ function TabelaCursos() {
           </div>
         </div>
       </div>
+      <div className='contact_button_container'>
+        <Link to="/contato" className={`botao_contato ${location.pathname === '/contato' ? 'active' : ''}`}>Faça uma cotação conosco</Link>
+      </div>
     </div>
   );
 }
