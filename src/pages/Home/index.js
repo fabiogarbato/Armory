@@ -22,7 +22,7 @@ function Home() {
           <div className='text-name-img1'>Nossos Cursos</div>        
         </div>
         <div className='column-2'>
-          <div className='text-name-img2'>Entre em contato conosco</div>        
+          <div className='text-name-img2'>Nossa Estrutura</div>        
         </div>
       </div>
     </div>
