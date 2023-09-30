@@ -108,3 +108,46 @@
     font-family: korataki, serif;
     white-space: normal;
 }
+
+.fabricante-container{
+    margin-top: 8%;
+}
+
+.fabricante-text{
+    font-size: 50px;
+    color: rgb(255, 115, 0);
+    font-family: korataki, serif;
+    white-space: normal;
+}
+
+.carrossel-container{
+    width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner{
+    display: flex;
+}
+
+.item{
+    min-height: 200px;
+    min-width: 400px;
+    padding: 14px;
+}
+
+.item img{
+    width: 100%;
+    height: 90%;
+    border-radius: 12px;
+    pointer-events: none;
+}
+
+.carrossel-container{
+    cursor: grab;
+    overflow: hidden;
+}
