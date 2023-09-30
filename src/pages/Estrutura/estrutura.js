@@ -24,10 +24,10 @@ function Estrutura() {
             </div>
         </div>              
         <div className='row-2'>
-            <div className='img2'></div>
             <div className='text-container'>
                 <div className='text-name-img2'>Visibilidade mais assertiva</div>
             </div>
+            <div className='img2'></div>            
         </div>      
         <div className='row-3'>
             <div className='img3'></div>
@@ -36,10 +36,10 @@ function Estrutura() {
             </div>
         </div>    
         <div className='row-4'>
-            <div className='img4'></div>
             <div className='text-container'>
                 <div className='text-name-img4'>Melhor enquadramento nas áreas predefinido</div>
             </div>
+            <div className='img4'></div>            
         </div>                     
         <div className='row-5'>
             <div className='img5'></div>

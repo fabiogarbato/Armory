@@ -6,7 +6,7 @@
     margin-top: 20px;
     padding: 5px;
     width: 70%; 
-    height: 400vh;
+    height: 300vh;
 }
 
 .text-container {
@@ -22,7 +22,7 @@
     align-items: center;
     width: 100%; 
     padding: 20px;    
-    margin-bottom: 0.5%;    
+    margin-bottom: 5px;    
 }
 
 .row-1{
@@ -39,7 +39,7 @@
 }
 
 .text-name-img1 {
-    font-size: 30px;
+    font-size: 50px;
     color: rgb(255, 115, 0);
     font-family: korataki, serif;
     white-space: normal;
@@ -55,7 +55,7 @@
 }
 
 .text-name-img2 {
-    font-size: 30px;
+    font-size: 50px;
     color: rgb(255, 115, 0);
     font-family: korataki, serif;
     white-space: normal;
@@ -71,7 +71,7 @@
 }
 
 .text-name-img3 {
-    font-size: 30px;
+    font-size: 50px;
     color: rgb(255, 115, 0);
     font-family: korataki, serif;
     white-space: normal;
@@ -87,7 +87,7 @@
 }
 
 .text-name-img4 {
-    font-size: 30px;
+    font-size: 50px;
     color: rgb(255, 115, 0);
     font-family: korataki, serif;
     white-space: normal;
@@ -103,7 +103,7 @@
 }
 
 .text-name-img5 {
-    font-size: 30px;
+    font-size: 50px;
     color: rgb(255, 115, 0);
     font-family: korataki, serif;
     white-space: normal;
