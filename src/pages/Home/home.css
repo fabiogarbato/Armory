@@ -12,7 +12,6 @@ body {
 .text-Container-header {
   height: 207px;
   margin-left: 950px;
-  /* background-color: rgb(195, 0, 255); */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,11 +31,11 @@ body {
 }
 
 .menu-button.active {
-  color: rgb(255, 238, 0); 
+  color: rgb(255, 238, 0);
 }
 
 .menu-button:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 .container {
@@ -71,7 +70,7 @@ body {
   background-position: center;
 }
 
-.img-container1 {
+ .img-container1 {
   width: 550px;
   height: 500px;
   background-image: url('../../images/arma3.jpg'); 
@@ -117,7 +116,6 @@ body {
 
 .text-img-container {
   width: 100%;
-  /* background-color: #f2f2f2; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -130,12 +128,12 @@ body {
 
 .column-1 {
   flex: 1; 
-  /* background-color: aquamarine; */
+  background-color: aquamarine;
 }
 
 .column-2{
   flex: 1;
-  /* background-color: blue; */
+  background-color: blue;
 }
 
 
@@ -159,53 +157,37 @@ body {
   margin-top: 0px;
 }
 
-
-.copyright {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  font-size: 15px;
-}
-
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .text-Container-header {
-    height: auto;
-    margin-left: 20px;
-    display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    flex-direction: row;
+    margin-left: 0;
     width: 100%;
+    padding: 0 20px;
   }
 
   .menu-button {
-    font-size: 18px;
-    font-family: korataki, serif;
-    margin-right: 10px;
-    margin-top: 0px;
-    flex-grow: 1;
+    margin-right: 0;
+    margin-top: 20px; 
+    width: 100%;
   }
 
   .img_logo {
-    position: absolute;
-    width: 100px; 
-    height: 87px; 
-    right: 50%; 
-    top: 50%; 
-    transform: translate(50%, -50%);
+    width: auto;
+    height: 100px;
+    right: 0;
+    top: 20px;
+    position: relative;
+    margin-right: 0;
+    margin-bottom: 5px;
   }
 
-
-  .container {
-    min-height: 100vh;
-    width: 100%;
-    background-color: #2b2928;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  .img-container1,
+  .img-container2 {
+    width: 80%; /* Altere a largura do container conforme necessário */
+    max-width: 300px; /* Defina um valor máximo para o container */
+    height: auto;
+    margin: 10px auto; /* Centralize o container horizontalmente */
   }
 }
 
