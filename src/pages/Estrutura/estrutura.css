@@ -1,0 +1,110 @@
+.container_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 20px;
+    padding: 5px;
+    width: 70%; 
+    height: 400vh;
+}
+
+.text-container {
+    flex-grow: 1;
+}
+
+.row-1, 
+.row-2,
+.row-3,
+.row-4,
+.row-5 {
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    padding: 20px;    
+    margin-bottom: 0.5%;    
+}
+
+.row-1{
+    margin-top: 10%;
+}
+
+.img1 {
+    width: 450px;
+    height: 450px;
+    background-image: url('../../images/humanoide1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 50px;
+}
+
+.text-name-img1 {
+    font-size: 30px;
+    color: rgb(255, 115, 0);
+    font-family: korataki, serif;
+    white-space: normal;
+}
+  
+.img2 {
+    width: 450px;
+    height: 450px;
+    background-image: url('../../images/humanoide2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 50px;
+}
+
+.text-name-img2 {
+    font-size: 30px;
+    color: rgb(255, 115, 0);
+    font-family: korataki, serif;
+    white-space: normal;
+}
+
+.img3 {
+    width: 450px;
+    height: 450px;
+    background-image: url('../../images/humanoide3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 50px;
+}
+
+.text-name-img3 {
+    font-size: 30px;
+    color: rgb(255, 115, 0);
+    font-family: korataki, serif;
+    white-space: normal;
+}
+
+.img4 {
+    width: 450px;
+    height: 450px;
+    background-image: url('../../images/humanoide4.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 50px;
+}
+
+.text-name-img4 {
+    font-size: 30px;
+    color: rgb(255, 115, 0);
+    font-family: korataki, serif;
+    white-space: normal;
+}
+
+.img5 {
+    width: 450px;
+    height: 450px;
+    background-image: url('../../images/estrutura.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 50px;
+}
+
+.text-name-img5 {
+    font-size: 30px;
+    color: rgb(255, 115, 0);
+    font-family: korataki, serif;
+    white-space: normal;
+}
