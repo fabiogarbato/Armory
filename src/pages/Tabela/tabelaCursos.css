@@ -98,8 +98,8 @@
   cursor: pointer; 
   font-family: korataki, serif;
   transition: transform 0.2s;
-   text-align: center;
-   line-height: 25px; 
+  text-align: center;
+  line-height: 25px; 
 }
 
 .botao_contato:hover {
@@ -107,3 +107,65 @@
   transform: scale(1.1);
 }
 
+@media screen and (max-width: 800px) {
+
+  .container {
+    min-height: 100vh; 
+    width: 100%;
+    background-color: #2b2928;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .text-Container-header {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .menu-button {
+    margin-right: 0;
+    margin-top: 20px; 
+    width: 100%;
+  }
+
+  .img_logo {
+    width: auto;
+    height: 100px;
+    right: 0;
+    top: 20px;
+    position: relative;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .custom-table {
+    overflow-x: auto; 
+    margin-top: 75%; 
+  }
+
+  .Table-Content-container {
+    max-width: 100%; 
+    margin-top: 20px; 
+    padding: 20px;
+  }
+
+  .contact_button_container {
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+    height: 50px;
+    background-color: #2b2928; 
+    text-align: center;
+  }
+
+  .botao_contato {
+    width: 100%;
+    height: 50px;
+  }
+}
