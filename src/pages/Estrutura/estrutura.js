@@ -37,24 +37,6 @@ function Estrutura() {
     setWidth(carrossel.current?.scrollWidth - carrossel.current?.offsetWidth)
   }, [])
 
-  const imageWidth = window.innerWidth;
-  const totalWidth = images.length * imageWidth;
-
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const controls = useAnimation();
-
-  const handleDragEnd = (e, info) => {
-    const dragDistance = info.offset.x;
-
-    if (dragDistance > 0 && currentIndex === 0) {
-      // Arrastou para a direita na primeira imagem, volte para a última
-      setCurrentIndex(images.length - 1);
-    } else if (dragDistance < 0 && currentIndex === images.length - 1) {
-      // Arrastou para a esquerda na última imagem, volte para a primeira
-      setCurrentIndex(0);
-    }
-  };
-
   const location = useLocation();   
 
   return (
@@ -104,14 +86,12 @@ function Estrutura() {
         <div className="carrossel-container">            
             <motion.div ref={carrossel} className='carrossel-img' whileTap={{ cursor: "grabbing"}}>
                 <motion.div
-                className='inner'
-                whileTap={{ cursor: "grabbing" }}
+                className='inner'                
                 drag="x"
-                dragConstraints={{ right: 0, left: -(totalWidth - window.innerWidth), top: 0, bottom: 0 }}
+                dragConstraints={{ right: 0, left: -width}}
                 initial={{ x: 100 }}
-                animate={{ x: -currentIndex * imageWidth }}
-                transition={{ type: "spring", damping: 30, stiffness: 300 }}
-                onDragEnd={handleDragEnd}
+                animate={{ x: 0}}
+                transition={{ type: "spring", damping: 30, stiffness: 300 }}                
                 >
 
                     {images.map(image => (

@@ -6,7 +6,7 @@
     margin-top: 20px;
     padding: 5px;
     width: 70%; 
-    height: 300vh;
+    height: 360vh;
 }
 
 .text-container {
@@ -110,33 +110,32 @@
 }
 
 .fabricante-container{
-    margin-top: 8%;
+    margin-top: 8%;    
 }
 
 .fabricante-text{
     font-size: 50px;
     color: rgb(255, 115, 0);
     font-family: korataki, serif;
-    white-space: normal;
+    white-space: normal;    
 }
 
 .carrossel-container{
-    width: 100%;
-    max-width: 70%;
-    margin: 0 auto;
-    min-height: 100vh;
+    width: 80%;    
+    max-width: 70%;    
+    min-height: 8%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;        
 }
 
 .inner{
-    display: flex;
+    display: flex;        
 }
 
 .item{
-    min-height: 200px;
-    min-width: 400px;
+    min-height: 25%;
+    min-width: 25%;
     padding: 14px;
 }
 
@@ -149,5 +148,5 @@
 
 .carrossel-container{
     cursor: grab;
-    overflow: hidden;
+    overflow: hidden;    
 }
