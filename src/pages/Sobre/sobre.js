@@ -8,8 +8,7 @@ function Sobre(){
     const titulos = [
         'UMA BREVE APRESENTAÇÃO',
         'MUITA PESQUISA E PROFISSIONALISMO',
-        'ONDE ATUAMOS E NOSSAS PARCERIAS',
-        'CONFIRA ABAIXO NOSSAS OPÇÕES DE CURSOS E CONSULTORIA'
+        'ONDE ATUAMOS E NOSSAS PARCERIAS'
     ]
     const textos = [
         'Somos uma empresa de consultoria e treinamento. Nosso principal foco é capacitar clientes com a nossa expertise. Compartilhar experiências e principalmente ensinar nossas técnicas do nível básico ao avançado.',
