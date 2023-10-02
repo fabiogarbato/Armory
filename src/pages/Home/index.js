@@ -4,10 +4,10 @@ import React, {useState} from 'react';
 
 function Home() {
   const location = useLocation(); 
-  const [showSubmenu, setShowSubmenu] = useState(false);
+  const [showSubMenu, setShowSubMenu] = useState(false);
 
-  const toggleSubmenu = () => {
-    setShowSubmenu(!showSubmenu);
+  const toggleSubMenu = () => {
+    setShowSubMenu(!showSubMenu);
   };
 
   return (      
@@ -18,15 +18,15 @@ function Home() {
           <Link to='/' className={`menu-button ${location.pathname === '/' ? 'active' : ''}`}>Página Inicial</Link>
           <Link to="/sobre" className={`menu-button ${location.pathname === '/sobre' ? 'active' : ''}`}>Sobre Nós</Link>
           <Link to="/contato" className={`menu-button ${location.pathname === '/contato' ? 'active' : ''}`}>Contato</Link>
-          <div className='menu-button' id='parceiros' onClick={toggleSubmenu}>
-            Parceiros
-          </div>
-          {showSubmenu && (
-            <div className='submenu-content'>
-              <Link to="/youtube" className={`submenu-button ${location.pathname === '/youtube' ? 'active' : ''}`}>YouTube</Link>
-              <Link to="/google" className={`submenu-button ${location.pathname === '/google' ? 'active' : ''}`}>Google</Link>
+          <div className="menu-button" onMouseEnter={toggleSubMenu} onMouseLeave={toggleSubMenu}>
+            Parceria
+            <div className={`submenu ${showSubMenu ? 'show' : ''}`}>
+              <ul>
+                <li><a href="#">YouTube</a></li>
+                <li><a href="#">Google</a></li>
+              </ul>
             </div>
-          )}
+          </div>
         </div>
       </div>
       <Link to='/tabela' className={`img-container1 ${location.pathname === '/tabela' ? 'active' : ''}`}></Link>
