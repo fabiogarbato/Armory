@@ -109,6 +109,23 @@
 
 /*RESPONSIVIDADE*/
 
+@media screen and (max-width: 1600px) {
+  .Table-Content-container {
+    max-width: 1200px; 
+    width: 100%;
+  }
+  
+  .custom-table {
+    max-width: 100%; 
+  }
+
+  .botao_contato {
+    width: 300px; 
+    margin-bottom: -10px;
+  }
+
+}
+
 @media screen and (max-width: 800px) {
 
   .container {
