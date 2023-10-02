@@ -157,6 +157,64 @@ body {
   margin-top: 0px;
 }
 
+@media screen and (max-width: 1600px) {
+  .text-Container-header {
+    height: 150px;
+    margin-left: auto; 
+    margin-right: 30px;
+    justify-content: center;
+    width: 50%; 
+  }
+
+  .img-container1 {
+    width: 250px;
+    height: 400px;
+    background-image: url('../../images/arma3.jpg'); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 30px; 
+    margin-left: 35px;
+    transition: transform 0.2s;
+    cursor: pointer;
+    flex: 1;
+  }
+  
+  .img-container2 {
+    width: 250px;
+    height: 400px;
+    background-image: url('../../images/arma2.jpg'); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 30px; 
+    transition: transform 0.2s;
+    cursor: pointer;
+    flex: 1;
+    margin-left: 20px;
+  }
+
+  .text-img-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: absolute; 
+    bottom: 0px; 
+    left: 0; 
+    right: 0; 
+  }
+}
+
 @media screen and (max-width: 800px) {
   .text-Container-header {
     flex-direction: column;
