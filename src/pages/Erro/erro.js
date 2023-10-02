@@ -9,6 +9,13 @@ function Erro(){
             <div className='img_logo'></div>
                 <div className='text-Container-header'>
                     <Link to='/' className={`menu-button ${location.pathname === '/' ? 'active' : ''}`}>Página Inicial</Link>
+                    <div className='menu-button submenu'>
+                        Parceiros
+                        <div className='submenu-content'>
+                            <Link to="/youtube" className={`submenu-button ${location.pathname === '/youtube' ? 'active' : ''}`}>YouTube</Link>
+                            <Link to="/google" className={`submenu-button ${location.pathname === '/google' ? 'active' : ''}`}>Google</Link>
+                        </div>
+                    </div>
                     <Link to="/sobre" className={`menu-button ${location.pathname === '/sobre' ? 'active' : ''}`}>Sobre Nós</Link>
                     <Link to="/contato" className={`menu-button ${location.pathname === '/contato' ? 'active' : ''}`}>Contato</Link>
                 </div>
