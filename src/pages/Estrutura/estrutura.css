@@ -110,8 +110,8 @@
 }
 
 .fabricante-container{
-    margin-top: 8%;    
-}
+    margin-top: 8%;   
+    }
 
 .fabricante-text{
     font-size: 50px;
@@ -126,8 +126,8 @@
     min-height: 8%;
     display: flex;
     align-items: center;
-    justify-content: center;        
-}
+    justify-content: center;   
+    }
 
 .inner{
     display: flex;        
@@ -148,5 +148,29 @@
 
 .carrossel-container{
     cursor: grab;
-    overflow: hidden;    
+    overflow: hidden;   
 }
+
+@media screen and (max-width: 1600px) {
+    .container_body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        align-items: center;
+        margin-top: 20px;
+        padding: 5px;
+        width: 70%; 
+        height: 400vh;
+    }
+
+    .text-name-img1,
+    .text-name-img2,
+    .text-name-img3,
+    .text-name-img4,
+    .text-name-img5{
+        font-size: 30px;
+        color: rgb(255, 115, 0);
+        font-family: korataki, serif;
+        white-space: normal;
+    }
+  }

@@ -151,4 +151,25 @@
   background-position: center center; 
 }
 
+@media screen and (max-width: 1600px) {
+  .Content-contact-container{
+    width: 1600px;
+    height: 400px;
+    /* background-color: blueviolet; */
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    margin-top: 160px;
+    margin-right: 60px;
+  }
+
+  .container-nameSocialMedia {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-top: 4%;
+    white-space: nowrap;
+  }
+}
 
