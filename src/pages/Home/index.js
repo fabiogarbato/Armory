@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Navigation from '../Utils/navigation';
+import './home.css'
 
 function Home() {
   const location = useLocation();
