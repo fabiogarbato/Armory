@@ -1,6 +1,5 @@
 import './sobre.css'
-import { Link, useLocation } from 'react-router-dom';
-import React, {useState} from 'react';
+import React from 'react';
 import Navigation from '../Utils/navigation';
 
 function Sobre(){
