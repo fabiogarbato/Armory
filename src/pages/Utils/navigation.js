@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './navigation.css'
+import './navigation.css';
 
 function Navigation() {
   const location = useLocation();
@@ -24,18 +24,18 @@ function Navigation() {
         <div
           className={`menu-button ${showSubMenu ? 'active' : ''}`}
           onClick={toggleSubMenu}
-          onMouseLeave={closeSubMenu}
         >
           Parceria
-          {showSubMenu && (
-            <div className='submenu'>
-              <ul>
-                  <ul><a href="https://obelico.com.br/" target='_blank' className='texto-submenu'>OBélico</a></ul>
-                  <ul><a href="https://www.cabanadasarmas.com.br/" target='_blank' className='texto-submenu'>Cabana das Armas</a></ul>
-                </ul>
-            </div>
-          )}
         </div>
+        {showSubMenu && (
+          <div className='submenu'>
+            <ul>
+              <li><a href="https://obelico.com.br/" target='_blank' className='texto-submenu'>OBélico</a></li>
+              <li><a href="https://www.cabanadasarmas.com.br/" target='_blank' className='texto-submenu'>Cabana das Armas</a></li>
+            </ul>
+            <button className='close-submenu-button' onClick={closeSubMenu}>Fechar</button>
+          </div>
+        )}
       </div>
     </div>
   );
