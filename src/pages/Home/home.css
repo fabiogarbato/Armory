@@ -2,6 +2,11 @@ a {
   text-decoration: none;
 }
 
+::selection {
+  background-color: rgb(255, 115, 0);
+  color: black; 
+}
+
 html,
 body {
   height: 100%;
