@@ -30,8 +30,8 @@ function Navigation() {
           {showSubMenu && (
             <div className='submenu'>
               <ul>
-                  <ul><a href="https://obelico.com.br/" target='_blank'>OBélico</a></ul>
-                  <ul><a href="https://www.cabanadasarmas.com.br/" target='_blank'>Cabana das Armas</a></ul>
+                  <ul><a href="https://obelico.com.br/" target='_blank' className='texto-submenu'>OBélico</a></ul>
+                  <ul><a href="https://www.cabanadasarmas.com.br/" target='_blank' className='texto-submenu'>Cabana das Armas</a></ul>
                 </ul>
             </div>
           )}

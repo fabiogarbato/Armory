@@ -62,20 +62,22 @@ body {
   list-style-type: none;
   display: none;
   position: absolute;
-  top: 20;
+  top: 40px; 
   right: 1%;
   background-color: #44413f;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  z-index: 3;
+  z-index: 1001;
   opacity: 0;
-  transform: translateX(-10px); 
-  transition: opacity 3s ease-in-out, transform 3s ease-in-out;
+  transform: translateX(-10px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out, width 0.3s ease-in-out, border-radius 0.3s ease-in-out; 
+  border-radius: 5px; 
 }
 
 .menu-button:hover .submenu {
   display: block;
   opacity: 1;
   transform: translateX(0);
+  width: 320px; 
   transition-delay: 0s;
 }
 
@@ -90,6 +92,10 @@ body {
 
 .submenu a:hover {
   color: rgb(255, 238, 0);
+}
+
+.texto-submenu{
+  font-size: 20px;
 }
 
 .img_logo {
