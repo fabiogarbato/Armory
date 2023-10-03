@@ -10,6 +10,10 @@ function Home() {
     setShowSubMenu(!showSubMenu);
   };
 
+  const closeSubMenu = () => {
+    setShowSubMenu(false);
+  };
+
   return (      
     <div className='container'>
       <div className='header_site'>
@@ -18,14 +22,20 @@ function Home() {
           <Link to='/' className={`menu-button ${location.pathname === '/' ? 'active' : ''}`}>Página Inicial</Link>
           <Link to="/sobre" className={`menu-button ${location.pathname === '/sobre' ? 'active' : ''}`}>Sobre Nós</Link>
           <Link to="/contato" className={`menu-button ${location.pathname === '/contato' ? 'active' : ''}`}>Contato</Link>
-          <div className="menu-button" onMouseEnter={toggleSubMenu} onMouseLeave={toggleSubMenu}>
+          <div
+            className={`menu-button ${showSubMenu ? 'active' : ''}`}
+            onClick={toggleSubMenu}
+            onMouseLeave={closeSubMenu}
+          >
             Parceria
-            <div className={`submenu ${showSubMenu ? 'show' : ''}`}>
-              <ul>
-                <li><a href="#">YouTube</a></li>
-                <li><a href="#">Google</a></li>
-              </ul>
-            </div>
+            {showSubMenu && (
+              <div className='submenu'>
+                <ul>
+                  <li><a href="#">YouTube</a></li>
+                  <li><a href="#">Google</a></li>
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </div>
