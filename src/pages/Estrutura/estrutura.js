@@ -38,6 +38,15 @@ function Estrutura() {
   }, [])
 
   const location = useLocation();   
+  const [showSubMenu, setShowSubMenu] = useState(false);
+
+  const toggleSubMenu = () => {
+    setShowSubMenu(!showSubMenu);
+  };
+
+  const closeSubMenu = () => {
+    setShowSubMenu(false);
+  };
 
   return (
     <div className='container'>
@@ -47,6 +56,21 @@ function Estrutura() {
           <Link to='/' className={`menu-button ${location.pathname === '/' ? 'active' : ''}`}>Página Inicial</Link>
           <Link to="/sobre" className={`menu-button ${location.pathname === '/sobre' ? 'active' : ''}`}>Sobre Nós</Link>
           <Link to="/contato" className={`menu-button ${location.pathname === '/contato' ? 'active' : ''}`}>Contato</Link>
+          <div
+            className={`menu-button ${showSubMenu ? 'active' : ''}`}
+            onClick={toggleSubMenu}
+            onMouseLeave={closeSubMenu}
+          >
+            Parceria
+            {showSubMenu && (
+              <div className='submenu'>
+                <ul>
+                  <ul><a href="https://obelico.com.br/">OBélico</a></ul>
+                  <ul><a href="https://www.cabanadasarmas.com.br/">Cabana das Armas</a></ul>
+                </ul>
+              </div>
+            )}
+          </div>
         </div>
       </div>
       <div className='container_body'>
