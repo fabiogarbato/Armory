@@ -31,8 +31,8 @@ function Home() {
             {showSubMenu && (
               <div className='submenu'>
                 <ul>
-                  <li><a href="#">YouTube</a></li>
-                  <li><a href="#">Google</a></li>
+                  <ul><a href="https://obelico.com.br/">OBélico</a></ul>
+                  <ul><a href="https://www.cabanadasarmas.com.br/">Cabana das Armas</a></ul>
                 </ul>
               </div>
             )}
