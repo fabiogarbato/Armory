@@ -162,12 +162,10 @@ body {
 
 .column-1 {
   flex: 1; 
-  background-color: aquamarine;
 }
 
 .column-2{
   flex: 1;
-  background-color: blue;
 }
 
 
@@ -249,13 +247,24 @@ body {
   }
 }
 
+@media screen and (max-width: 1900px) {
+  .text-Container-header {
+    height: 150px;
+    margin-left: auto; 
+    margin-right: 50px;
+    justify-content: center;
+    width: 50%; 
+  }
+
+}
+
 @media screen and (max-width: 1600px) {
   .text-Container-header {
     height: 150px;
     margin-left: auto; 
     margin-right: 30px;
     justify-content: center;
-    width: 50%; 
+    width: 65%; 
   }
 
   .img-container1 {
@@ -334,10 +343,10 @@ body {
 
   .img-container1,
   .img-container2 {
-    width: 80%; /* Altere a largura do container conforme necessário */
-    max-width: 300px; /* Defina um valor máximo para o container */
+    width: 80%;
+    max-width: 300px; 
     height: auto;
-    margin: 10px auto; /* Centralize o container horizontalmente */
+    margin: 10px auto; 
   }
 }
 
