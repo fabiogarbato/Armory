@@ -174,3 +174,77 @@
         white-space: normal;
     }
   }
+
+  @media (max-width: 800px) {
+    .container_body {
+        width: 100%;
+        margin-top: 70%;
+        height: auto;
+    }
+
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5 {
+        width: 100%;
+        max-width: none;
+        max-height: 80vh;
+        height: auto;
+        margin-right: 0;
+        padding-bottom: 300px; 
+    }
+
+    .img1 img {
+        content: url('../../images/humanoide1.jpeg');
+        width: 100%;
+    }
+    .img2 img {
+        content: url('../../images/humanoide2.jpeg');
+        width: 100%;
+    }
+    .img3 img {
+        content: url('../../images/humanoide3.jpeg');
+        width: 100%;
+    }
+    .img4 img {
+        content: url('../../images/humanoide4.jpeg');
+        width: 100%;
+    }
+    .img5 img {
+        content: url('../../images/estrutura.jpeg');
+        width: 100%;
+    }
+
+    .text-name-img5,
+    .fabricante-text {
+        font-size: 20px;
+        margin-top: 20px; 
+        margin-left: 5%;
+    }
+
+    .text-name-img1 {
+        font-size: 17px;
+        margin-top: 20px;
+        margin-left: 15%;
+    }
+
+    .text-name-img2{
+        font-size: 20px;
+        margin-top: 20px; 
+        margin-right: 7%;
+    }
+
+    .text-name-img3{
+        font-size: 20px;
+        margin-top: 20px; 
+        margin-left: 10%;
+    }
+
+    .text-name-img4{
+        font-size: 20px;
+        margin-top: 20px; 
+        margin-right: 80%;
+    }
+}
+

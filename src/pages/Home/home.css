@@ -80,7 +80,7 @@ body {
   flex: 1;
 }
 
-.text-name-img1 {
+.text-name_image1 {
   text-align: center;
   color: rgb(255, 115, 0);
   font-family: korataki, serif;
@@ -90,7 +90,7 @@ body {
   margin-top: 0px;
 }
 
-.text-name-img2 {
+.text-name_image2 {
   text-align: center;
   color: rgb(255, 115, 0);
   font-family: korataki, serif;
@@ -202,29 +202,35 @@ body {
 
 
 @media screen and (max-width: 800px) {
-  .img-container1,
-  .img-container2 {
-    margin-top: 10px;
-    display: block;
-    text-align: center;
-    background-image: none;
-    cursor: pointer;
-    border: 2px solid rgb(255, 115, 0);
-    background-color: rgb(255, 115, 0);
-    color: #FFFFFF;
-    width: 150px; /* Largura desejada */
-    height: 50px; /* Altura desejada */
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
-  }
-
-  .img-container1:hover,
-  .img-container2:hover {
-    background-color: rgb(255, 115, 0);
-  }
-
   .text-img-container {
-   display: none;
+      width: 100%;
+      max-width: none;
+      max-height: 10vh;
+      height: auto;
+      margin-right: 0;
+      margin-top: 800px; /* Ajuste a margem superior para descer as imagens */
+      padding-bottom: 200px; 
+      margin-bottom: 0%;
+  }
+
+  .text-name_image1,
+  .text-name_image2 {
+      text-align: center;
+      color: rgb(255, 115, 0);
+      font-family: korataki, serif;
+      font-size: 34px;
+      position: relative;
+      top: -20px;
+      margin-top: 1000px; /* Ajuste a margem superior para espaçamento */
+  }
+
+  .img1 img {
+      content: url('../../images/arma2.jpg');
+      width: 100%;
+  }
+  .img2 img {
+      content: url('../../images/arma2.jpg');
+      width: 100%;
   }
 }
 
