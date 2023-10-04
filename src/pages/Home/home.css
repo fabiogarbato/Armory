@@ -30,6 +30,7 @@ body {
   transition: transform 0.2s;
   cursor: pointer;
   flex: 1;
+  color: transparent;
 }
 
 .img-container2 {
@@ -48,6 +49,7 @@ body {
   cursor: pointer;
   flex: 1;
   margin-left: 20px;
+  color: transparent;
 }
 
 .img-container1:hover {
@@ -198,13 +200,37 @@ body {
   }
 }
 
+
 @media screen and (max-width: 800px) {
   .img-container1,
   .img-container2 {
-    width: 80%;
-    max-width: 300px; 
-    height: auto;
-    margin: 10px auto; 
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    background-image: none;
+    cursor: pointer;
+    border: 2px solid rgb(255, 115, 0);
+    background-color: rgb(255, 115, 0);
+    color: #FFFFFF;
+    width: 150px; /* Largura desejada */
+    height: 50px; /* Altura desejada */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .img-container1:hover,
+  .img-container2:hover {
+    background-color: rgb(255, 115, 0);
+  }
+
+  .text-img-container {
+   display: none;
   }
 }
+
+
+
+
+  
+
 
