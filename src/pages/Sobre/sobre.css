@@ -129,6 +129,19 @@
 
 
 @media screen and (max-width: 800px) {
+
+  .Title-container {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    position: absolute; 
+    top: 40%; 
+    left: 0;
+    right: 0;
+  }
+
   .Title-text {
     display: none; 
     color: rgb(255, 115, 0);
