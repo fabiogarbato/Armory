@@ -1,17 +1,68 @@
-.text-color {
+html,
+body {
+  overflow: hidden;
+  height: 100%;
+  background-color: #2b2928;
+}
+
+.body {
+  min-height: 100vh;
+}
+
+.coluna1{
+    /* background-color: aqua; */
+    min-height: 100vh;
+}
+
+.coluna2{
+    /* background-color: rgb(195, 0, 255); */
+    min-height: 100vh;
+}
+
+.container-imagem-simulada {
+    background-image: url("../../images/arma1.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -320px 100px 100px 100px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.container-imagem-simulada:hover {
+    transform: scale(1.1); 
+}
+
+.container-imagem-simulada2 {
+    background-image: url("../../images/arma2.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center; 
+    width: 60%;
+    height: 50%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -320px 100px 100px 100px; 
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.container-imagem-simulada2:hover {
+    transform: scale(1.1); 
+}
+
+.imagem-texto {
     color: #ff7300;
-    transition: transform 0.2s;
-}
-
-.text-color:hover {
-    color: #FFA500;
-    transform: scale(1.1);
-}
-
-.background-color{
-    background-color: #2b2928;
-}
-
-.custom-menu-icon {
-    background-color: #ff7300; 
+    font-family: Korataki, serif;
+    font-size: 25px;
+    margin-top: 520px; 
   }
+  
+  
+  
