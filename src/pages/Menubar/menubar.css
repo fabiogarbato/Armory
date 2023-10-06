@@ -16,6 +16,14 @@
     transform: scale(1.1);
 }
 
+.custom-dropdown-menu .dropdown-menu {
+    text-align: center; 
+}
+
+.custom-dropdown-menu .dropdown-item {
+    line-height: 2; 
+}
+
 .background-color{
     background-color: #2b2928;
 }
