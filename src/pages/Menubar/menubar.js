@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'react-bootstrap/Image';
+import Logo from '../../images/logo.png';
 import './menubar.css';
 
 function Menubar() {
@@ -13,7 +14,7 @@ function Menubar() {
     <Navbar expand="lg" className="background-color" style={{ height: '300px' }}>
       <Container>
         <Navbar.Brand href="#home">
-          <Image src="../../images/logo.png" alt="Armory" />
+          <Image src={Logo} alt="Armory" className='img_logo'/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-menu-icon"/>
         <Navbar.Collapse id="basic-navbar-nav">
