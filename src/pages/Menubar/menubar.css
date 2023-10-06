@@ -12,23 +12,29 @@
     background-color: #2b2928;
 }
 
-.custom-menu-icon {
-    background-color: #ff7300; 
-  }
-
 .custom-dropdown-item {
-    background-color: #4e4b49; 
     transition: background-color 0.3s, transform 0.3s; 
+    color: #FFA500;
 }
 
 .custom-dropdown-item:hover {
-    background-color: #FF6347; 
     transform: scale(1.1); 
 }
 
-.custom-dropdown.show {
-    max-height: 50px; 
+.custom-dropdown-item .dropdown-menu {
+    margin-top: -25px;
+    background-color: #4d4a48;
 }
 
-  
-  
+.custom-dropdown-item .text-color {
+    background-color: transparent; 
+}
+
+.custom-dropdown-item .submenu-item {
+    background-color: transparent; 
+    transition: transform 0.2s; 
+}
+
+.custom-dropdown-item .submenu-item:hover {
+    transform: scale(1.1); 
+}

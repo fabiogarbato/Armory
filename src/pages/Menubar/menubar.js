@@ -20,7 +20,7 @@ function Menubar() {
           <Nav.Link href="#home" className="text-color" style={{ fontSize: '30px', fontFamily: 'Korataki, serif', marginLeft: '30px', marginTop: '-90px' }}>Pagina Inicial</Nav.Link>
           <Nav.Link href="#link" className="text-color" style={{ fontSize: '30px', fontFamily: 'Korataki, serif', marginLeft: '30px', marginTop: '-90px' }}>Sobre Nós</Nav.Link>
           <Nav.Link href="#contato" className="text-color" style={{ fontSize: '30px', fontFamily: 'Korataki, serif', marginLeft: '30px', marginTop: '-90px' }}>Contato</Nav.Link>
-          <NavDropdown title="Parceiros" id="basic-nav-dropdown" className="custom-dropdown" style={{ fontSize: '30px', fontFamily: 'Korataki, serif', marginLeft: '30px', marginTop: '-90px'}}>
+          <NavDropdown title="Parceiros" id="basic-nav-dropdown" className="custom-dropdown-item" style={{ fontSize: '30px', fontFamily: 'Korataki, serif', marginLeft: '30px', marginTop: '-90px'}}>
             <NavDropdown.Item href="#action/3.1" className="text-color">OBelico</NavDropdown.Item>
               <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.4" className="text-color">
