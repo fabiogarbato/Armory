@@ -1,5 +1,17 @@
-@import "~bootstrap/scss/bootstrap";
+.text-color {
+    color: #ff7300;
+    transition: transform 0.2s;
+}
 
-.custom-bg-color {
+.text-color:hover {
+    color: #FFA500;
+    transform: scale(1.1);
+}
+
+.background-color{
     background-color: #2b2928;
+}
+
+.custom-menu-icon {
+    background-color: #ff7300; 
   }
