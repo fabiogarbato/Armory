@@ -14,21 +14,17 @@ body {
     }
   }  
 
-.coluna1{
-    /* background-color: aqua; */
-    min-height: 100vh;
-}
-
-.coluna2{
-    /* background-color: rgb(195, 0, 255); */
-    min-height: 100vh;
-}
-
 .imagem-custom {
   width: 750px; 
   height: 550px; 
   max-width: 100%; 
   margin-bottom: 60%;
+  transition: transform 0.3s; 
+  cursor: pointer;
+}
+
+.imagem-custom:hover{
+  transform: scale(1.1);     
 }
   
   
