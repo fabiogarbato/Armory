@@ -12,13 +12,13 @@ function Home() {
       <Menubar />
       <Container fluid>
         <Row className="body flex-wrap">
-          <Col md={6} sm={12} xs={12} className="coluna1 d-flex justify-content-center align-items-center">
+          <Col md={6} sm={12} xs={12} className="coluna1 d-flex flex-column justify-content-center align-items-center">
             <Container className="container-imagem-simulada">
               <p className="imagem-texto">Nossos Cursos</p>
             </Container>
           </Col>
-          <Col md={6} sm={12} xs={12} className="coluna2 d-flex justify-content-center align-items-center flex-column">
-            <Container className="container-imagem-simulada2" >
+          <Col md={6} sm={12} xs={12} className="coluna2 d-flex flex-column justify-content-center align-items-center">
+            <Container className="container-imagem-simulada2">
               <p className="imagem-texto">Nossa Estrutura</p>
             </Container>
           </Col>
