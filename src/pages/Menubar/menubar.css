@@ -88,10 +88,45 @@
         font-family: 'Korataki', serif;
         margin-left: 10px;
         margin-top: 10px;
+        transition: transform 0.2s;
     }
 
     .custom-link-menu{
         font-size: 20px;
+        font-family: 'Korataki', serif;
+        margin-left: 10px;
+        margin-top: 0px;
+        transition: transform 0.2s; 
+    }
+
+    .custom-link:hover{
+        transform: scale(1.1); 
+    }
+
+    .custom-link-menu:hover{
+        transform: scale(1.1); 
+    }
+} 
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .img_logo {
+        position: absolute;
+        width: 120px;
+        height: 105px;
+        right: 80%;
+        top: 68%;
+        left: 70%;
+      }
+
+    .custom-link {
+        font-size: 30px;
+        font-family: 'Korataki', serif;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .custom-link-menu{
+        font-size: 30px;
         font-family: 'Korataki', serif;
         margin-left: 10px;
         margin-top: 0px; 
@@ -104,3 +139,28 @@
         transform: translateY(0) !important;
     }
   }
+
+@media screen and (min-width: 992px) and (max-width: 1399px) {
+    .img_logo {
+        position: absolute;
+        width: 120px;
+        height: 100px;
+        right: 80%;
+        top: 40%;
+        left: 5%;
+        }
+
+    .custom-link {
+        font-size: 25px;
+        font-family: 'Korataki', serif;
+        margin-left: 30px;
+        margin-top: -80px;
+        }
+
+    .custom-link-menu{
+        font-size: 25px;
+        font-family: 'Korataki', serif;
+        margin-left: 30px;
+        margin-top: -87px; 
+    }
+} 
