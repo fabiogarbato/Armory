@@ -11,7 +11,7 @@ import './menubar.css';
 function Menubar() {
 
   return (
-    <Navbar expand="lg" className="background-color" style={{ height: '300px' }}>
+    <Navbar expand="lg" className="background-color" style={{ height: '220px' }}>
       <Container>
         <Navbar.Brand href="#home">
           <Image src={Logo} alt="Armory" className='img_logo'/>
@@ -19,10 +19,10 @@ function Menubar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-menu-icon"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Link to="/" className="text-color link-style" style={{ fontSize: '30px', fontFamily: 'Korataki, serif', marginLeft: '30px', marginTop: '-80px' }}>Pagina Inicial</Link>
-            <Link to="/sobre" className="text-color link-style" style={{ fontSize: '30px', fontFamily: 'Korataki, serif', marginLeft: '30px', marginTop: '-80px' }}>Sobre Nós</Link>
-            <Link to="/contato" className="text-color link-style" style={{ fontSize: '30px', fontFamily: 'Korataki, serif', marginLeft: '30px', marginTop: '-80px' }}>Contato</Link>
-            <NavDropdown title={<span style={{ color: '#ff7300' }}>Parceiros</span>} id="basic-nav-dropdown" className="custom-dropdown-item custom-dropdown-menu" style={{ fontSize: '30px', fontFamily: 'Korataki, serif', marginLeft: '30px', marginTop: '-86px'}}>
+          <Link to="/" className="text-color link-style custom-link">Pagina Inicial</Link>
+          <Link to="/sobre" className="text-color link-style custom-link">Sobre Nós</Link>
+          <Link to="/contato" className="text-color link-style custom-link">Contato</Link>
+            <NavDropdown title={<span style={{ color: '#ff7300' }}>Parceiros</span>} id="basic-nav-dropdown" className="custom-dropdown-item custom-dropdown-menu custom-link-menu">
               <Link to="/parceiro/obelico" className="text-color link-style">OBelico</Link>
               <NavDropdown.Divider />
               <Link to="/parceiro/cabana-das-armas" className="text-color link-style">Cabana Das Armas</Link>
