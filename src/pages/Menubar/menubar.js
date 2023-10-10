@@ -23,9 +23,9 @@ function Menubar() {
           <Link to="/sobre" className="text-color link-style custom-link">Sobre Nós</Link>
           <Link to="/contato" className="text-color link-style custom-link">Contato</Link>
             <NavDropdown title={<span style={{ color: '#ff7300' }}>Parceiros</span>} id="basic-nav-dropdown" className="custom-dropdown-item custom-dropdown-menu custom-link-menu">
-              <Link to="/parceiro/obelico" className="text-color link-style custom-link-Submenu">OBelico</Link>
+              <Link to="https://obelico.com.br" target="_blank" className="text-color link-style custom-link-Submenu">OBelico</Link>
               <NavDropdown.Divider />
-              <Link to="/parceiro/cabana-das-armas" className="text-color link-style custom-link-Submenu">Cabana Das Armas</Link>
+              <Link to="https://www.cabanadasarmas.com.br" target="_blank" className="text-color link-style custom-link-Submenu">Cabana Das Armas</Link>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
