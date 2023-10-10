@@ -9,22 +9,24 @@ import Arma2 from '../../images/arma2.jpg';
 import './home.css';
 
 function Home() {
-
   return (
     <div>
-      <Menubar/>
-      <Container fluid>
+      <Menubar />
+      <Container fluid style={{ position: 'relative' }}>
         <Row className="body flex-wrap">
           <Col lg={6} md={6} sm={12} className="coluna d-flex flex-column justify-content-center align-items-center">
+            <p className='text-center'>Nossos Cursos</p>
             <Image src={Arma1} alt="Imagem 1" className="img-fluid imagem-custom" />
           </Col>
           <Col lg={6} md={6} sm={12} className="coluna d-flex flex-column justify-content-center align-items-center">
-            <Image src={Arma2} alt="Imagem 2" className="img-fluid imagem-custom" />
+              <p className='text-center'>Nossa Estrutura</p>
+              <Image src={Arma2} alt="Imagem 2" className="img-fluid imagem-custom" />
           </Col>
         </Row>
       </Container>
     </div>
   );
 }
+
 
 export default Home;
