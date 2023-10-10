@@ -89,22 +89,37 @@
         margin-left: 10px;
         margin-top: 10px;
         transition: transform 0.2s;
+        vertical-align: middle; 
     }
 
     .custom-link-menu{
-        font-size: 20px;
+        font-size: 18px;
         font-family: 'Korataki', serif;
         margin-left: 10px;
         margin-top: 0px;
         transition: transform 0.2s; 
+        vertical-align: middle; 
     }
 
     .custom-link:hover{
-        transform: scale(1.1); 
+        transform: scale(1.035); 
     }
 
     .custom-link-menu:hover{
-        transform: scale(1.1); 
+        transform: scale(1.035); 
+    }
+
+    .custom-dropdown-menu .dropdown-menu{
+        width: 10px;
+        margin-top: 0px;
+    }
+
+    .custom-link-Submenu{
+        font-size: 12px;
+        font-family: 'Korataki', serif;
+        margin-left: 10px;
+        margin-top: 0px;
+        transition: transform 0.2s; 
     }
 } 
 
@@ -130,6 +145,19 @@
         font-family: 'Korataki', serif;
         margin-left: 10px;
         margin-top: 0px; 
+    }
+
+    .custom-dropdown-menu .dropdown-menu{
+        /* width: 100px; */
+        margin-top: 0px;
+    }
+
+    .custom-link-Submenu{
+        font-size: 20px;
+        font-family: 'Korataki', serif;
+        margin-left: 10px;
+        margin-top: 0px;
+        transition: transform 0.2s; 
     }
 } 
 
