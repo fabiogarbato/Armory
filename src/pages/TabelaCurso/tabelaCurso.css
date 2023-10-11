@@ -31,21 +31,23 @@
     font-weight: bold; 
 }
 
-.button-table{
-    background-color: #ff7300;
-    width: 20%;
-    margin-left: 40%;
-    margin-top: 1%;
-    border: 1px solid black;
-    font-family: korataki, 'serif';
-    display: block;
-    margin: 1 auto; 
-}
-
-.button-table:hover{
-    background-color: #FFA500;
-    border: 1px solid black;
-}
+.button-table {
+    background-color: #ff7300 ;
+    width: 20% ;
+    margin-left: 40% ;
+    margin-top: 1% ;
+    border: 1px solid black ;
+    font-family: korataki, 'serif' ;
+    display: block ;
+    margin: 1 auto ;
+    color: white; 
+  }
+  
+  .button-table:hover {
+    background-color: #FFA500 ;
+    color: white;
+    border: 1px solid black ;
+  }
 
 @media screen and (min-width: 200px) and (max-width: 767px) {
     .table th {
@@ -64,17 +66,17 @@
     }
 
     .button-table {
-        background-color: #ff7300;
+        text-decoration: none ;
+        background-color: #ff7300 ;
+        width: 30% ;
+        margin-left: 40% ;
+        margin-top: 1% ;
+        border: 1px solid black ;
+        font-family: korataki, 'serif' ; 
+        display: block ;
+        margin: 0 auto ;
         color: white;
-        font-family: korataki, 'serif';
-        font-size: 15px;
-        padding: 10px;
-        border: 1px solid black;
-        display: block;
-        margin: 0 auto; 
-        width: 40%;
-      }
-      
+      }     
 } 
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -97,3 +99,58 @@
         padding: 20px;
     }
 } 
+
+@media screen and (min-width: 1700px) and (max-width: 2650px) {
+    .table {
+        max-width: 80%; 
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 5%;
+      }
+      
+    .th, td {
+        width: 25%; 
+    }
+    
+    .table th {
+        background-color: #ff7300; 
+        color: #fff; 
+        font-family: korataki, 'serif';
+        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+        font-size: 20px; 
+        padding: 25px; 
+      }
+      
+    .table td {
+        background-color: #4d4a48; 
+        color: white; 
+        padding: 15px;
+    }
+    
+    .custom-bordered {
+        border: 2px solid #2b2928; 
+      }
+    
+    .table tbody td:first-child {
+        font-weight: bold; 
+    }
+    
+    .button-table {
+        background-color: #ff7300 ;
+        width: 15% ;
+        margin-left: 42% ;
+        margin-top: 1% ;
+        border: 1px solid black ;
+        font-family: korataki, 'serif' ;
+        display: block ;
+        margin: 1 auto ;
+        color: white;
+      }
+      
+      .button-table:hover {
+        background-color: #FFA500 ;
+        border: 1px solid black ;
+        color: white;
+      }
+      
+  } 

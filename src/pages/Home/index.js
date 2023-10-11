@@ -6,7 +6,6 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Arma1 from '../../images/arma1.jpg';
 import Arma2 from '../../images/arma2.jpg';
-import { Link } from 'react-router-dom';
 import './home.css';
 
 function Home() {
