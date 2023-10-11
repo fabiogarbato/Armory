@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import Arma1 from '../../images/arma1.jpg';
+import Arma1 from '../../images/arma3.jpg';
 import Arma2 from '../../images/arma2.jpg';
 import './home.css';
 
