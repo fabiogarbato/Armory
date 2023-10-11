@@ -2,6 +2,7 @@ import Menubar from '../Menubar/menubar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Table from 'react-bootstrap/Table';
 import './tabelaCurso.css';
+import Button from 'react-bootstrap/Button';
 
 function TabelaCurso() {
   return (
@@ -37,6 +38,7 @@ function TabelaCurso() {
                 </tr>
             </tbody>
         </Table>
+        <Button className='button-table'>Faça uma cotação conosco</Button>
     </div>
   );
 }
