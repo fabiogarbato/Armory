@@ -14,7 +14,7 @@ function Menubar() {
   return (
     <Navbar expand="lg" className="background-color" style={{ height: '220px' }}>
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <Image src={Logo} alt="Armory" className='img_logo'/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-menu-icon"/>
