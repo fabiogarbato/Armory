@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import Erro from './pages/Erro/erro'
 import Sobre from './pages/Sobre/sobre'
 import Contato from './pages/Contato/contato'
+import TabelaCurso from './pages/TabelaCurso/tabelaCurso'
 
 function RoutesApp(){
     return(
@@ -12,6 +13,7 @@ function RoutesApp(){
                 <Route path='*' element={ <Erro/>}/>
                 <Route path='/sobre' element={ <Sobre/>}/>
                 <Route path='/contato' element={ <Contato/>}/>
+                <Route path='/tabela' element={ <TabelaCurso/>}/>
             </Routes>
         </BrowserRouter>
     )
