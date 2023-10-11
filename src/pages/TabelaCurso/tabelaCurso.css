@@ -1,0 +1,33 @@
+.table {
+    max-width: 80%; 
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+.th, td {
+    width: 25%; 
+}
+
+.table th {
+    background-color: #ff7300; 
+    color: #fff; 
+    font-family: korataki, 'serif';
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    font-size: 20px; 
+    padding: 25px; 
+  }
+  
+.table td {
+    background-color: #4d4a48; 
+    color: white; 
+    padding: 15px;
+}
+
+.custom-bordered {
+    border: 2px solid #2b2928; 
+  }
+
+.table tbody td:first-child {
+    font-weight: bold; 
+}
+
