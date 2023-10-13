@@ -10,18 +10,18 @@ function Sobre() {
   return (
     <div>
       <Menubar />
-      <Container fluid style={{ backgroundColor: 'pink', position: 'relative', height: '5vh', display: 'flex', justifyContent: 'center' }}>
+      <Container fluid style={{ position: 'relative', height: '5vh', display: 'flex', justifyContent: 'center' }}>
         <Row style={{marginBottom: '0' }} className="align-items-center">
           <Col className='title-text'>Sobre Nós</Col>
         </Row>
       </Container>
-      <Container fluid style={{ backgroundColor: 'pink', position: 'relative', height: '20vh', display: 'flex', justifyContent: 'center', marginTop: '10px' }}>
+      <Container fluid className='container-sobre'>
         <Row style={{ marginBottom: '0' }} className="align-items-center">
-          <Col xs={6} className="bg-blue text-white text-center d-flex align-items-top" style={{ backgroundColor: 'blue', height: '20vh', width: '100vh'}}>
-            Azul
+          <Col xs={6} sm={6} md={6} lg={6} className="bg-blue text-white text-center d-flex align-items-top column1">
+            <p className='text-style'>UMA BREVE APRESENTAÇÃO</p>
           </Col>
-          <Col xs={6} className="bg-red text-white text-center d-flex align-items-top" style={{ backgroundColor: 'red', height: '20vh', width: '100vh'}}>
-            Vermelho
+          <Col xs={6} sm={6} md={6} lg={6} className="bg-red text-white text-center d-flex align-items-top column2">
+            <p className='text-style'>MUITA PESQUISA E PROFISSIONALISMO</p> 
           </Col>
         </Row>
       </Container>
