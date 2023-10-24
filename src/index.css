@@ -2,3 +2,8 @@
   font-family: 'korataki';
   src: local('korataki'), url(./fonts/korataki.ttf) format('truetype');
 }
+
+::selection {
+  background-color: rgb(255, 115, 0);
+  color: black; 
+}
