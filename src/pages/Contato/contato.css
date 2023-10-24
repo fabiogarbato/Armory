@@ -45,6 +45,26 @@
     margin-top: 0;
   }
 
+.whatsapp-link {
+    position: fixed;
+    width: 102px; 
+    height: 102px;
+    bottom: 68px;
+    right: 68px; 
+    background-color: #25d366;
+    background-image: url('../../images/whats.png');
+    background-size: cover; 
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 1000;
+    transition: transform 0.2s;
+}  
+  
+.whatsapp-link:hover {
+    transform: scale(1.1); 
+} 
+
 @media screen and (min-width: 200px) and (max-width: 767px) {
     .imagem-social-insta{
         width: 100px;
@@ -76,12 +96,12 @@
         cursor: pointer;
       }
 
-      .text-center-contact{
+    .text-center-contact{
         color: #ff7300;
         font-family: korataki, 'serif';
         font-size: 18px;
         margin-top: 0;
-      }
+    }
 } 
 
 

@@ -34,6 +34,7 @@ function Contato() {
           </Col>
         </Row>
       </Container>
+      <a class="whatsapp-link" href="https://wa.me/5541997388481?text=%20Ola%21%20Conheci%20os%20servi%C3%A7os%20atrav%C3%A9s%20do%20site%2C%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os" target="_blank"></a>
     </div>
   );
 }
