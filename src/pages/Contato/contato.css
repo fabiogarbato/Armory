@@ -1,62 +1,16 @@
-.container-contato{
-    background-color: aqua;
-    height: 100vh;
-    margin-top: 2%;
-}
-
-.column1-contact, .column2-contact{
-    background-color: red;
-    height: 100vh;
-    width: 100vh;
-    margin-bottom: -50px;
-    display: flex;
-    align-items: center;
-    position: relative; 
-}
-
-.column2-contact {
-    background-color: blue;
-}
-
-.img-insta {
-    border-radius: 50%;
-    max-width: 300px; 
-    max-height: 300px; 
-    width: auto;
-    height: auto;
+.imagem-social {
+    width: 300px; 
+    height: 200px; 
+    max-width: 100%;
+    margin-bottom: 60%;
     transition: transform 0.3s;
-    cursor: pointer;
-    position: absolute;
-    top: 10%;
-    right: 32%;
-}
-
-.img-face {
     border-radius: 50%;
-    max-width: 200px; 
-    max-height: 200px; 
-    width: auto;
-    height: auto;
-    transition: transform 0.3s;
-    cursor: pointer;
-    position: absolute;
-    top: 10%;
-    right: 32%;
-}
-
-.img-insta:hover{
-    transform: scale(1.035);     
-  }
-
-.img-face:hover{
+  }  
+  
+.imagem-social:hover{
     transform: scale(1.035);     
 }
 
-.title-column-container{
-    background-color: violet;
-    width: 100vh;
-    margin-bottom: 20%;
-    margin-left: 35%;
-}
+
 
   
