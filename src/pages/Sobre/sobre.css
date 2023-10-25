@@ -1,194 +1,28 @@
-.title-text {
+.text-center-sobre{
+    color: #ff7300;
     font-family: korataki, 'serif';
-    color: #ff7300;
-    font-size: 35px;
-    text-align: center; 
-}
-
-.column1 {
-    /* background-color: blue;  */
-    height: 5vh;
-    width: 100vh; 
-    margin-bottom: -50px; 
-    justify-content: center;
-}
-
-.column2{
-    /* background-color: red;  */
-    height: 5vh;
-    width: 100vh; 
-    margin-bottom: -50px;  
-    justify-content: center;
-}
-
-.content-column1{
-    /* background-color: aqua; */
-    height: 15vh;
-    width: 100vh; 
-    margin-bottom: 0px; 
-}
-
-.content-column2{
-    /* background-color: rgb(43, 255, 0); */
-    height: 15vh;
-    width: 100vh; 
-    margin-bottom: 0px; 
-}
-
-.text-style{
-    color: #ff7300;
-    font-size: 21px;
-}
-
-.container-sobre {
-    background-color: pink; 
-    position: relative;
-    height: 10vh;
-    display: flex;
-    justify-content: center; 
-    margin-top: 10px; 
-}
-
-.container-content-sobre{
-    /* background-color: purple; */
-    position: relative;
-    height: 10vh;
-    display: flex;
-    justify-content: center; 
-    margin-top: 10px;    
-}
-
-.container-text-sobre{
-    background-color: aqua;
-}
-
-.text-style-content{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-
-@media screen and (min-width: 200px) and (max-width: 767px) {
-    .title-text {
-        font-family: korataki, 'serif';
-        color: #ff7300;
-        font-size: 18px;
-        text-align: center; 
-        width: 46.5vh; 
-    }
-
-    .column1 {
-        /* background-color: blue;  */
-        height: 10vh;
-        width: 46.5vh;
-        margin-bottom: 40px; 
-        justify-content: center;
-    }
-    
-    
-    .column2{
-        /* background-color: red;  */
-        height: 10vh;
-        width: 46.5vh;  
-        margin-bottom: 40px;
-        justify-content: center;
-    }
-
-    .container-sobre {
-        /* background-color: pink;  */
-        position: relative;
-        height: 20vh;
-        width: 46.5vh;
-        display: flex;
-        justify-content: center; 
-        margin-top: 10px; 
-    }
-
-    .text-style{
-        color: #ff7300;
-        font-size: 16px;  
-        overflow-wrap: break-word;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-    .title-text {
-        font-family: korataki, 'serif';
-        color: #ff7300;
-        font-size: 30px;
-        text-align: center; 
-        width: 46.5vh; 
-        margin-top: 40px;
-    }
-
-    .column1 {
-        /* background-color: blue;  */
-        height: 10vh;
-        width: 46.5vh; 
-        margin-bottom: 40px; 
-        justify-content: center;
-    }
-    
-    
-    .column2{
-        /* background-color: red;  */
-        height: 10vh;
-        width: 46.5vh;  
-        margin-bottom: 40px;
-        justify-content: center;
-    }
-
-    .container-sobre {
-        /* background-color: pink;  */
-        position: relative;
-        height: 20vh;
-        width: 46.5vh; 
-        display: flex;
-        justify-content: center; 
-        margin-top: 50px;
-    }
-
-    .text-style{
-        color: #ff7300;
-        font-size: 22px;  
-        overflow-wrap: break-word;
-    }
-} 
-
-@media screen and (min-width: 992px) and (max-width: 1399px) {
-    .title-text {
-        font-family: korataki, 'serif';
-        color: #ff7300;
-        font-size: 35px;
-        text-align: center; 
-    }
-    
-    .column1 {
-        /* background-color: blue;  */
-        height: 5vh;
-        width: 170vh; 
-        margin-bottom: -50px; 
-        justify-content: center;
-    }
-    
-    .column2{
-        /* background-color: red;  */
-        height: 5vh;
-        width: 170vh; 
-        margin-bottom: -50px;  
-        justify-content: center;
-    }
-    
-    .text-style{
-        color: #ff7300;
-        font-size: 21px;
-    }
-    
-    .container-sobre {
-        /* background-color: pink;  */
-        position: relative;
-        height: 10vh;
-        display: flex;
-        justify-content: center; 
-        margin-top: 10px; 
-    }
+    font-size: 30px;
+    margin-top: 0;
+    text-align: center;
   }
+
+  .text-sobre-content{
+    color: #ffffff;
+    text-align: left;
+  }
+
+  @media screen and (min-width: 200px) and (max-width: 767px) {
+    .text-center-sobre{
+        color: #ff7300;
+        font-family: korataki, 'serif';
+        font-size: 15px;
+        margin-top: 0;
+        text-align: center;
+      }
+
+      .text-sobre-content{
+        color: #ffffff;
+        text-align: left;
+        font-size: 14px;
+      }
+}
