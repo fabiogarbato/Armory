@@ -19,22 +19,22 @@ function Contato() {
         </Row>
       </Container>
       <Container fluid style={{ position: 'relative', margin:'0' }}>
-        <Row className="body flex-wrap">
-          <Col lg={6} md={6} sm={12} style={{  marginBottom: '20%' }} className="coluna d-flex flex-column justify-content-center align-items-center">
+        <Row className="body flex-wrap custom-height-row">
+          <Col lg={6} md={6} sm={12} style={{  marginBottom: '20%' }} className="coluna d-flex flex-column justify-content-center align-items-center custom-height">
             <p style={{ marginBottom: '8%'}} className='text-center-contact'>@armoryconsulting</p>
             <a href="https://www.instagram.com/armoryconsulting/" target="_blank">
               <Image src={Instagram} alt="Imagem 1" className="img-fluid imagem-social-insta" />
             </a>
           </Col>
-          <Col lg={6} md={6} sm={12} style={{ marginBottom: '19%' }} className="coluna d-flex flex-column justify-content-center align-items-center">
+          <Col lg={6} md={6} sm={12} style={{ marginBottom: '19%' }} className="coluna d-flex flex-column justify-content-center align-items-center custom-height2">
               <p className='text-center-contact'>Armory Consulting</p>
               <a href="https://www.facebook.com/armoryconsulting/" target="_blank">
                 <Image src={Facebook} alt="Imagem 2" className="img-fluid imagem-social" />
               </a>
           </Col>
+          <a class="whatsapp-link" href="https://wa.me/5541997388481?text=%20Ola%21%20Conheci%20os%20servi%C3%A7os%20atrav%C3%A9s%20do%20site%2C%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os" target="_blank"></a>
         </Row>
       </Container>
-      <a class="whatsapp-link" href="https://wa.me/5541997388481?text=%20Ola%21%20Conheci%20os%20servi%C3%A7os%20atrav%C3%A9s%20do%20site%2C%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os" target="_blank"></a>
     </div>
   );
 }
