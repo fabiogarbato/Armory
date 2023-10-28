@@ -23,7 +23,7 @@ function Sobre() {
           </Col>
           <Col lg={6} md={6} sm={12} style={{ marginBottom: '40%' }} className="coluna d-flex flex-column justify-content-center align-items-center">
               <p className='text-center-sobre'>MUITA PESQUISA E PROFISSIONALISMO</p>
-              <h3 className='text-sobre-content'>O cidadão brasileiro é prejudicado reiteradamente com informações desencontradas no quesito arma de fogo. Por esta razão, criamos um projeto inovador ao realizar um levantamento mais assertivo. Com uma base sólida de conhecimento, a Armory Consulting foi criada para promover consultoria, cursos e treinamento no crescente mercado nacional de armas.</h3>
+              <h3 style={{ marginBottom:'11%'}} className='text-sobre-content'>O cidadão brasileiro é prejudicado reiteradamente com informações desencontradas no quesito arma de fogo. Por esta razão, criamos um projeto inovador ao realizar um levantamento mais assertivo. Com uma base sólida de conhecimento, a Armory Consulting foi criada para promover consultoria, cursos e treinamento no crescente mercado nacional de armas.</h3>
           </Col>
         </Row>
       </Container>
