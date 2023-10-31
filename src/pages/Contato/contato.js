@@ -14,8 +14,8 @@ function Contato() {
     <div>
       <Menubar />
       <Container fluid style={{ position: 'relative', height: '5vh', display: 'flex', justifyContent: 'center' }}>
-        <Row style={{marginBottom: '0' }} className="align-items-center">
-          <Col className='title-text'>Contato</Col>
+        <Row style={{marginBottom: '0', marginTop: '-30px'  }} className="align-items-center">
+          <Col className='text-center-sobre'>Contato</Col>
         </Row>
       </Container>
       <Container fluid style={{ position: 'relative', margin:'0' }}>

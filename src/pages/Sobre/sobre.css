@@ -6,10 +6,13 @@
     text-align: center;
   }
 
-  .text-sobre-content{
+  .text-description{
     color: #ffffff;
-    text-align: left;
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
   }
+  
 
   @media screen and (min-width: 200px) and (max-width: 767px) {
     .text-center-sobre{
@@ -25,4 +28,40 @@
         text-align: left;
         font-size: 14px;
       }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .text-center-sobre{
+    color: #ff7300;
+    font-family: korataki, 'serif';
+    font-size: 19px;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .text-sobre-content{
+    color: #ffffff;
+    text-align: left;
+    font-size: 14px;
+  }
+} 
+
+@media screen and (min-width: 992px) and (max-width: 1399px) {
+  .text-center-sobre{
+    color: #ff7300;
+    font-family: korataki, 'serif';
+    font-size: 21px;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .text-sobre-content{
+    color: #ffffff;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .sobre-page {
+    overflow-y: auto;
+  }
 }
