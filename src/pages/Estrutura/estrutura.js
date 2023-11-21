@@ -36,83 +36,76 @@ function Estrutura() {
   return (
     <div style={{ maxHeight: '100vh', overflow: 'auto' }}>
       <Menubar />
-      <Container>
-        <Row className='mb-3'>
-            <Col md={6}>
-                <Image src={humanoide1} alt="Imagem 2" className="img-fluid imagem-custom" />
-            </Col>
-            <Col md={6}>
-                <div className='text-name-img'>Realismo</div>
-            </Col>
-        </Row>
-
-        <Row className='mb-3'>
-            <Col md={6}>
-                <div className='text-name-img'>Visibilidade mais assertiva</div>
-            </Col>
-            <Col md={6}>
-                <Image src={humanoide2} alt="Imagem 2" className="img-fluid imagem-custom" />
-            </Col>
-        </Row>
-
-        <Row className='mb-3'>
-            <Col md={6}>
-                <Image src={humanoide3} alt="Imagem 2" className="img-fluid imagem-custom" />
-            </Col>
-            <Col md={6}>
-                <div className='text-name-img'>Noção de profundidade</div>
-            </Col>
-        </Row>
-
-        <Row className='mb-3'>
-            <Col md={6}>
-                <div className='text-name-img'>Melhor enquadramento nas áreas predefinido</div>
-            </Col>
-            <Col md={6}>
-                <Image src={humanoide4} alt="Imagem 2" className="img-fluid imagem-custom" />
-            </Col>
-        </Row>
-
-        <Row className='mb-3'>
-            <Col md={6}>
-                <Image src={estrutura} alt="Imagem 2" className="img-fluid imagem-custom" />
-            </Col>
-            <Col md={6}>
-                <div className='text-name-img'>Visualização mais ampla na cadência de tiro</div>
-            </Col>
-        </Row>
-
-        <Row>
-            <Col>
-                <div className='fabricante-text'>Fabricantes</div>
-            </Col>
-        </Row>
-
-        <Carousel interval={3000} pause={false}>
-            {images.reduce((acc, image, index) => {
-                const chunkIndex = Math.floor(index / 3);
-                if (!acc[chunkIndex]) {
-                    acc[chunkIndex] = []; // inicia um novo chunk
-                }
-                acc[chunkIndex].push(image);
-                return acc;
-            }, []).map((imageGroup, index) => (
-            <Carousel.Item key={index}>
-                <div className="d-flex">
-                    {imageGroup.map((image, idx) => (
-                        <img
-                            key={idx}
-                            className="d-block w-100 my-carousel-img"
-                            src={image}
-                            alt={`Slide ${index}-${idx}`}
-                        />
-                    ))}
-                </div>
-            </Carousel.Item>
-            ))}
-        </Carousel>
-
-    </Container>
+        <Container>
+            <Row className='mb-3'>
+                <Col md={6}>
+                    <Image src={humanoide1} alt="Imagem 2" className="img-fluid imagem-custom" />
+                </Col>
+                <Col md={6}>
+                    <div className='text-name-img'>Realismo</div>
+                </Col>
+            </Row>
+            <Row className='mb-3'>
+                <Col md={6}>
+                    <div className='text-name-img'>Visibilidade mais assertiva</div>
+                </Col>
+                <Col md={6}>
+                    <Image src={humanoide2} alt="Imagem 2" className="img-fluid imagem-custom" />
+                </Col>
+            </Row>
+            <Row className='mb-3'>
+                <Col md={6}>
+                    <Image src={humanoide3} alt="Imagem 2" className="img-fluid imagem-custom" />
+                </Col>
+                <Col md={6}>
+                    <div className='text-name-img'>Noção de profundidade</div>
+                </Col>
+            </Row>
+            <Row className='mb-3'>
+                <Col md={6}>
+                    <div className='text-name-img'>Melhor enquadramento nas áreas predefinido</div>
+                </Col>
+                <Col md={6}>
+                    <Image src={humanoide4} alt="Imagem 2" className="img-fluid imagem-custom" />
+                </Col>
+            </Row>
+            <Row className='mb-3'>
+                <Col md={6}>
+                    <Image src={estrutura} alt="Imagem 2" className="img-fluid imagem-custom" />
+                </Col>
+                <Col md={6}>
+                    <div className='text-name-img'>Visualização mais ampla na cadência de tiro</div>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <div className='fabricante-text'>Fabricantes</div>
+                </Col>
+            </Row>
+            <Carousel interval={3000} pause={false}>
+                {images.reduce((acc, image, index) => {
+                    const chunkIndex = Math.floor(index / 3);
+                    if (!acc[chunkIndex]) {
+                        acc[chunkIndex] = []; 
+                    }
+                    acc[chunkIndex].push(image);
+                    return acc;
+                }, []).map((imageGroup, index) => (
+                <Carousel.Item key={index}>
+                    <div className="d-flex">
+                        {imageGroup.map((image, idx) => (
+                            <img
+                                key={idx}
+                                className="d-block w-100 my-carousel-img"
+                                src={image}
+                                alt={`Slide ${index}-${idx}`}
+                            />
+                        ))}
+                    </div>
+                </Carousel.Item>
+                ))}
+            </Carousel>
+        </Container>
     </div>
   );
 }
