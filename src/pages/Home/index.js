@@ -22,7 +22,7 @@ function Home() {
           </Col>
           <Col lg={6} md={6} sm={12} className="coluna d-flex flex-column justify-content-center align-items-center">
               <p className='text-center'>Nossa Estrutura</p>
-              <a href="/tabela">
+              <a href="/estrutura">
                 <Image src={Arma2} alt="Imagem 2" className="img-fluid imagem-custom" />
               </a>
           </Col>
