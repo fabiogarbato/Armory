@@ -28,11 +28,13 @@ function Sobre() {
       <Container fluid style={{ position: 'relative', margin: '0', minHeight: '30vh' }}> 
           <Row>
               <Col md={6}>
-                  <p className='text-center-sobre'>UMA BREVE APRESENTAÇÃO</p>
+                  <p className='text-center-sobre'>UMA BREVE</p>
+                  <p className='text-center-sobre'>APRESENTAÇÃO</p>
                   <p className='text-description'>Somos uma empresa de consultoria e treinamento. Nosso principal foco é capacitar clientes com a nossa expertise. Compartilhar experiências e principalmente ensinar nossas técnicas do nível básico ao avançado.</p>
               </Col>
               <Col md={6}>
-                  <p className='text-center-sobre'>MUITA PESQUISA E PROFISSIONALISMO</p>
+                  <p className='text-center-sobre'>MUITA PESQUISA </p>
+                  <p className='text-center-sobre'>E PROFISSIONALISMO</p>
                   <p className='text-description'>O cidadão brasileiro é prejudicado reiteradamente com informações desencontradas no quesito arma de fogo. Por esta razão, criamos um projeto inovador ao realizar um levantamento mais assertivo. Com uma base sólida de conhecimento, a Armory Consulting foi criada para promover consultoria, cursos e treinamento no crescente mercado nacional de armas.</p>
               </Col>
           </Row>
