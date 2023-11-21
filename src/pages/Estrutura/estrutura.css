@@ -3,3 +3,14 @@
     font-family: korataki, 'serif';
     font-size: 30px;
 }
+
+.my-carousel-img {
+    height: 400px;
+    width: 400px; 
+    object-fit: cover; 
+}
+
+.d-flex > img {
+    flex: 0 0 33.333%; 
+    max-width: 33.333%;
+}

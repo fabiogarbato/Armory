@@ -88,17 +88,30 @@ function Estrutura() {
             </Col>
         </Row>
 
-        {/* <Carousel interval={3000} pause={false}>
-            {images.map((image, index) => (
+        <Carousel interval={3000} pause={false}>
+            {images.reduce((acc, image, index) => {
+                const chunkIndex = Math.floor(index / 3);
+                if (!acc[chunkIndex]) {
+                    acc[chunkIndex] = []; // inicia um novo chunk
+                }
+                acc[chunkIndex].push(image);
+                return acc;
+            }, []).map((imageGroup, index) => (
             <Carousel.Item key={index}>
-                <img
-                className="d-block w-100"
-                src={image}
-                alt={`Slide ${index}`}
-                />
+                <div className="d-flex">
+                    {imageGroup.map((image, idx) => (
+                        <img
+                            key={idx}
+                            className="d-block w-100 my-carousel-img"
+                            src={image}
+                            alt={`Slide ${index}-${idx}`}
+                        />
+                    ))}
+                </div>
             </Carousel.Item>
             ))}
-        </Carousel> */}
+        </Carousel>
+
     </Container>
     </div>
   );
